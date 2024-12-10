@@ -28,10 +28,16 @@ export default function BlogSection() {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          820: {
+          768: {
             slidesPerView: 1, // Use 1 slide for screens 820px and below
           },
-          821: {
+          769: {
+            slidesPerView: 3, // Use 1 slide for screens 820px and below
+          },
+          800: {
+            slidesPerView: 1, // Use 1 slide for screens 820px and below
+          },
+          801: {
             slidesPerView: 3, // Use 1 slide for screens 820px and below
           },
         }}
