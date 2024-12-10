@@ -40,7 +40,8 @@
 
   /* Hero section styling */
   .hero-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: auto;
   }
 
